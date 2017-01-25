@@ -1,0 +1,7 @@
+-   id: clang-format
+    name: clang-format
+    description: Format files with ClangFormat.
+    entry: clang-format
+    language: system
+    files: \.(c|cc|cxx|cpp|h|hpp|hxx|java|js|m|proto)$
+    args: ['-fallback-style=Google', '-i']
