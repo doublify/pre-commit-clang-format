@@ -5,7 +5,7 @@
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
 -   repo: https://github.com/pre-commit/pre-commit
-    sha: b63748f5572682e7bf8b30b12d67b293b2eae3dc
+    sha: 1be4e4f82e31336fa5fca096c962c72ac0041537
     hooks:
     -   id: validate_config
     -   id: validate_manifest
