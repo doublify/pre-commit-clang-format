@@ -6,7 +6,7 @@
 
 ```yaml
 -   repo: git://github.com/doublify/pre-commit-clang-format
-    sha: master
+    rev: master
     hooks:
     -   id: clang-format
 ```
