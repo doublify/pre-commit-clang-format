@@ -5,3 +5,4 @@
     language: system
     files: \.(c|cc|cxx|cpp|frag|glsl|h|hpp|hxx|ih|ispc|ipp|java|js|m|mm|proto|textproto|vert)$
     args: ['-fallback-style=none']
+    additional_dependencies: [clang-format]
